@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model PdfGenerator.Models.HomeViewModel
+
+<div class="panel panel-primary marginTop30">
+    <div class="panel-heading panel-head">Create PDF</div>
+    <div class="panel-body">
+        <div id="PDFalert" class="alert alert-success alert-dismissible collapse" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <strong>Your PDF will be downloaded shortly!</strong>
+        </div>
+
+        <div id="fillAll" class="alert alert-danger alert-dismissible collapse" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <strong>Both 'PDF File Name' and 'PDF Content' is required!</strong>
+        </div>
+
+        <div class="form-horizontal">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Title, "PDF File Name", new { @class = "col-lg-2 control-label" })
+                <div class="col-lg-9">
+                    @Html.TextBoxFor(model => model.Title, new { @class = "form-control", placeholder = "Enter a name for the file" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Content, "PDF Content", new { @class = "col-lg-2 control-label" })
+                <div class="col-lg-9">
+                    @Html.TextAreaFor(model => model.Content, new { @class = "form-control", @row = 5 })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-9"></div>
+                <div class="col-lg-2">
+                    <button class="btn btn-success" id="btnSubmit" style="float: right">
+                        Generate Pdf
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+

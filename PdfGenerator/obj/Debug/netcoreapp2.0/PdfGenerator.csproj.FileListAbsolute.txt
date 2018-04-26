@@ -1,0 +1,11 @@
+C:\Users\yasna\Source\Repos\PdfGenerator\PdfGenerator\bin\Debug\netcoreapp2.0\PdfGenerator.deps.json
+C:\Users\yasna\Source\Repos\PdfGenerator\PdfGenerator\bin\Debug\netcoreapp2.0\PdfGenerator.runtimeconfig.json
+C:\Users\yasna\Source\Repos\PdfGenerator\PdfGenerator\bin\Debug\netcoreapp2.0\PdfGenerator.runtimeconfig.dev.json
+C:\Users\yasna\Source\Repos\PdfGenerator\PdfGenerator\bin\Debug\netcoreapp2.0\PdfGenerator.dll
+C:\Users\yasna\Source\Repos\PdfGenerator\PdfGenerator\bin\Debug\netcoreapp2.0\PdfGenerator.pdb
+C:\Users\yasna\Source\Repos\PdfGenerator\PdfGenerator\obj\Debug\netcoreapp2.0\PdfGenerator.csprojResolveAssemblyReference.cache
+C:\Users\yasna\Source\Repos\PdfGenerator\PdfGenerator\obj\Debug\netcoreapp2.0\PdfGenerator.csproj.CoreCompileInputs.cache
+C:\Users\yasna\Source\Repos\PdfGenerator\PdfGenerator\obj\Debug\netcoreapp2.0\PdfGenerator.AssemblyInfoInputs.cache
+C:\Users\yasna\Source\Repos\PdfGenerator\PdfGenerator\obj\Debug\netcoreapp2.0\PdfGenerator.AssemblyInfo.cs
+C:\Users\yasna\Source\Repos\PdfGenerator\PdfGenerator\obj\Debug\netcoreapp2.0\PdfGenerator.dll
+C:\Users\yasna\Source\Repos\PdfGenerator\PdfGenerator\obj\Debug\netcoreapp2.0\PdfGenerator.pdb
