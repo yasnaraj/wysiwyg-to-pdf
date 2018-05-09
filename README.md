@@ -8,3 +8,8 @@ The second part of this example application shows how to convert HTML to PDF and
 it makes use of <a href="https://jsreport.net/learn/dotnet-aspnetcore" target="_blank"> JSReport for .NET Core </a>.
 
 Feel free to clone this project to see how creating a WYSIWYG editor works and how creating a PDF file from HTML works in .NET CORE 2.0 applications.
+
+Code to clone this repository:
+```
+git clone https://github.com/yasnaraj/wysiwyg-to-pdf
+```
